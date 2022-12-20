@@ -1,7 +1,10 @@
+#save working directory in a variable for convinience
+export WD=$(pwd)
+
 #Download all the files specified in data/filenames
-for url in $(<list_of_urls>) #TODO
+for url in $(WD/data/urls) #TODO
 do
-    bash scripts/download.sh $url data
+    bash scripts/download.sh $WD/data
 done
 
 # Download the contaminants fasta file, uncompress it, and
