@@ -1,0 +1,16 @@
+name: entregable
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - seqtk
+  - seqkit
+  - fastqc
+  - cutadapt
+  - ca-certificates
+  - openssl
+  - multiqc
+  - star
+  - certifi
+prefix: /home/vant/mambaforge/envs/entregable

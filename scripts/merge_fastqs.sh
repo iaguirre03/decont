@@ -6,5 +6,5 @@
 
 for sample in $1
 do
-cat $3.5dpp.1.1s_sRNA.fastq.gz $3.5dpp.1.2s_sRNA.fastq.gz > $2/$3.fastq.gz
+cat data/$3.5dpp.1.1s_sRNA.fastq.gz data/$3.5dpp.1.2s_sRNA.fastq.gz > $2/$3.fastq.gz
 done
